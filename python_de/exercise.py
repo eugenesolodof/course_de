@@ -10,7 +10,7 @@ purchases = [
 
 min_price = 1.0
 
-# 
+# main script
 print(f'Общая выручка: {m.total_revenue(purchases)}\n'
       f'Товары по категориям: {m.items_by_category(purchases)}\n'
       f'Покупки дороже {min_price}: {m.expensive_purchases(purchases, min_price)}\n'
